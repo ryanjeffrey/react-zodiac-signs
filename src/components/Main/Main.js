@@ -5,12 +5,12 @@ import ZodiacCard from '../ZodiacCard/ZodiacCard.js';
 export default function Main() {
   return (
     <main>
-      {zodiac.map((zodiac) => (
+      {zodiac.map(({ id, name, dates, symbol }) => (
         <ZodiacCard
-          key={zodiac.id}
-          name={zodiac.name}
-          dates={zodiac.dates}
-          symbol={zodiac.symbol}
+          key={id}
+          name={name}
+          dates={dates}
+          symbol={symbol}
         />
       ))}
     </main>
