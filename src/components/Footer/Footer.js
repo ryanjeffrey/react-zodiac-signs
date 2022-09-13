@@ -1,5 +1,6 @@
 import React from 'react';
+import './Footer.css';
 
 export default function Footer() {
-  return <div>&copy;2022 Ryan Smith</div>;
+  return <footer>&copy;2022 Ryan Smith</footer>;
 }

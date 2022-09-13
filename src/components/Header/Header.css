@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200;500&family=Nabla&display=swap');
+
 div {
     margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Nabla', cursive;
+    font-size: 3em;
 }
